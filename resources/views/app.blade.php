@@ -7,12 +7,9 @@
 </head>
 <body class="antilaliased font-sans bg-gray-200">
 
-    <main id="app">
-        <navigation></navigation>
-        <div class="py-5">
-            <router-view></router-view>
-        </div>
-    </main>
+    <div id="app">
+        <master></master>
+    </div>
 
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
